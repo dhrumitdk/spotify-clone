@@ -1,7 +1,7 @@
 // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "cff76213089a4e228206c8bf120d67cb";
+const clientId = "5dd2fb185ba34150bfad46a724245643";
 const redirectUri = "https://spotify-clone-reactjs.netlify.app/";
 const scopes = [
   "user-read-currently-playing",
