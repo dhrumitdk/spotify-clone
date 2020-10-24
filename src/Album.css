@@ -1,0 +1,20 @@
+.album {
+  padding: 12px;
+  padding-bottom: 50px;
+  background-color: #232323;
+  color: white;
+  border-radius: 5px;
+  max-width: 160px;
+}
+
+.album__image {
+  object-fit: contain;
+  height: 160px;
+  border-radius: 5px;
+}
+
+.album > p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: gray;
+}

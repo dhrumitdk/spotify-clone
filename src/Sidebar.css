@@ -1,0 +1,53 @@
+.sidebar {
+  height: 100vh;
+  min-width: 230px;
+  flex: 0.2;
+  background-color: #040404;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar__icon :hover {
+  color: white;
+}
+
+.sidebar__logo {
+  object-fit: contain;
+  height: 40px;
+  padding: 25px;
+  margin-right: auto;
+}
+
+.sidebar__title {
+  margin-left: 10px;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #c7c7c7;
+}
+
+.playlist__section {
+  display: flex;
+  align-items: center;
+  color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+}
+
+.playlist__div :hover {
+  color: white;
+}
+
+.playlist__section > h5 {
+  margin-left: 10px;
+}
+
+.hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
